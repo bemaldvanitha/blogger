@@ -13,3 +13,6 @@
 
     // site name
     define('SITENAME','Blogger');
+
+    // app version
+    define('APPVERSION','1.0');
