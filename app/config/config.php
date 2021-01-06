@@ -1,15 +1,15 @@
 <?php
     // db params
     define('DB_HOST','localhost');
-    define('DB_USER','__YOUR_USER__');
-    define('DB_PASS','__YOUR_PASSWORD__');
-    define('DB_NAME','__YOUR_DATABASE_NAME__');
+    define('DB_USER','root');
+    define('DB_PASS','Bemal123#');
+    define('DB_NAME','blogger');
 
     // app root
     define('APPROOT', dirname(dirname(__FILE__)));
 
     // URL Root
-    define('URLROOT','__YOUR_URL__');
+    define('URLROOT','http://localhost/blogger');
 
     // site name
-    define('SITENAME','__YOUR_SITE_NAME__');
+    define('SITENAME','Blogger');

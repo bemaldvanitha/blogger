@@ -4,7 +4,5 @@
         <?php echo $data['title'] ?>
     </h1>
 
-    <p>HELLO GUYS....  documentation is in ......</p>
-
 
 <?php require APPROOT . '/views/inc/footer.php' ?>
