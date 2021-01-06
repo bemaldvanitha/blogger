@@ -16,14 +16,32 @@
                   'email' => '',
                   'password' => '',
                     'confirm_password' => '',
-                   'name_error' => '',
-                   'email_error' => '',
-                   'password_error' => '',
-                   'confirm_password_error' => '',
+                   'name_err' => '',
+                   'email_err' => '',
+                   'password_err' => '',
+                   'confirm_password_err' => '',
                 ];
 
                 //load view
                 $this->view('users/register',$data);
+            }
+        }
+
+        public function login(){
+            // check for post
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+                // process form
+            }else{
+                // init data
+                $data = [
+                    'email' => '',
+                    'password' => '',
+                    'email_err' => '',
+                    'password_err' => '',
+                ];
+
+                //load view
+                $this->view('users/login',$data);
             }
         }
 
